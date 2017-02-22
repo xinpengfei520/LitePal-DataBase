@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    tools:context="com.xpf.dbhelper.MainActivity">
+
+    <Button
+        android:id="@+id/save_sample_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="save" />
+
+    <Button
+        android:id="@+id/update_sample_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="update" />
+
+    <Button
+        android:id="@+id/delete_sample_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="delete" />
+
+    <Button
+        android:id="@+id/query_sample_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="query" />
+</LinearLayout>
